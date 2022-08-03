@@ -1,0 +1,7 @@
+class Solution:
+    def findOnce(self,arr : list, n : int):
+        ans=0
+        for i in range(n):
+            ans^=arr[i]
+        return ans
+        # Complete this function
